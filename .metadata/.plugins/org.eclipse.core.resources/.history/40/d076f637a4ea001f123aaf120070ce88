@@ -1,0 +1,5 @@
+package com.sbms.rest;
+
+public class WelcomeRestController {
+
+}

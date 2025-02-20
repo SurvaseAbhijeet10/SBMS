@@ -1,0 +1,27 @@
+package com.sbms.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.sbms.entity.Employee;
+import com.sbms.repository.EmployeeRepository;
+
+@Service
+public class EmployeeService {
+
+	
+	private EmployeeRepository EmpRepo;
+	
+	public EmployeeService(EmployeeRepository EmpRepo){
+	
+		this.EmpRepo= EmpRepo;
+	}
+	
+	public void getAllEmps() {
+		List<Employee> list = EmpRepo.findAll();
+		
+		list.forEach(e -> System.out.println(e));
+	}
+	
+}

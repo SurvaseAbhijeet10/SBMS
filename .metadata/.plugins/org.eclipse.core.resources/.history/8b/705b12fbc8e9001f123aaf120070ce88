@@ -1,0 +1,4 @@
+spring.application.name=43_SB_Service_Registry
+
+server.port=8761
+spring.cloud.discovery.enabled = true

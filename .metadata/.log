@@ -1,0 +1,1753 @@
+!SESSION 2025-02-08 12:53:51.026 -----------------------------------------------
+eclipse.buildId=4.21.0.202312011804
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+This is a continuation of log file C:\Java Fullstack\STS Workspace\.metadata\.bak_0.log
+Created Time: 2025-02-13 10:40:39.037
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-02-13 10:40:39.038
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-13 11:18:05.794
+!MESSAGE Classpath changed for project: 46_Greet_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-13 11:18:08.857
+!MESSAGE Classpath changed for project: 46_Greet_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-13 11:18:08.857
+!MESSAGE Boot project ADDED: 46_Greet_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-13 11:18:11.349
+!MESSAGE Classpath changed for project: 46_Greet_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-13 11:26:12.920
+!MESSAGE Classpath changed for project: 46_Greet_API
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-02-13 11:30:53.225
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springsource.ide.eclipse.commons.core 4 0 2025-02-13 17:52:59.012
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): 47_Cloud_API_Gateway does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:549)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2576)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2438)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2536)
+	at org.springframework.tooling.boot.ls.BootProjectTester.isProjectWithDependency(BootProjectTester.java:71)
+	at org.springframework.tooling.boot.ls.BootProjectTester.test(BootProjectTester.java:58)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.expressions.OrExpression.evaluate(OrExpression.java:26)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:163)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:256)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:114)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:469)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5141)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4773)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2305)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4112)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3653)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-02-13 17:52:59.016
+!MESSAGE 47_Cloud_API_Gateway does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-13 17:53:05.426
+!MESSAGE Classpath changed for project: 47_Cloud_API_Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-13 17:53:07.517
+!MESSAGE Classpath changed for project: 47_Cloud_API_Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-13 17:53:07.518
+!MESSAGE Boot project ADDED: 47_Cloud_API_Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-13 17:53:14.446
+!MESSAGE Classpath changed for project: 47_Cloud_API_Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-13 17:53:15.770
+!MESSAGE Classpath changed for project: 47_Cloud_API_Gateway
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-02-14 12:14:36.626
+!MESSAGE java.util.concurrent.CancellationException
+!STACK 0
+java.util.concurrent.CompletionException: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2480)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.cancel(LSPLinkedEditingBase.java:85)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.collectLinkedEditingRanges(LSPLinkedEditingBase.java:53)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:165)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:154)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.lambda$0(LSPLinkedEditingReconcilingStrategy.java:132)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:126)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:100)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:154)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:286)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:214)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:342)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2403)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:76)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:66)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:461)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.synchronize(TextFileDocumentProvider.java:1149)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.initializeSourceDocument(MavenPomEditor.java:400)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.addFallbackEditors(MavenPomEditor.java:364)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.addPages(MavenPomEditor.java:337)
+	at org.eclipse.ui.forms.editor.FormEditor.createPages(FormEditor.java:143)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:333)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at jdk.internal.reflect.GeneratedMethodAccessor116.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:976)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:938)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:138)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:385)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:311)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4802)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:208)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:661)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:625)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:796)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:401)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1270)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3233)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$11(WorkbenchPage.java:3123)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3121)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3091)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3082)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:548)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:508)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:367)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:172)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:288)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:254)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:366)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$3.open(PackageExplorerPart.java:545)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:800)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:797)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1115)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:296)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2478)
+	... 128 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:15:52.956
+!MESSAGE Classpath changed for project: 48_SB_Cloud_Config_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:15:52.957
+!MESSAGE Boot project ADDED: 48_SB_Cloud_Config_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:15:53.747
+!MESSAGE Classpath changed for project: 48_SB_Cloud_Config_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:15:55.648
+!MESSAGE Classpath changed for project: 48_SB_Cloud_Config_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:23:33.693
+!MESSAGE Classpath changed for project: 48_SB_Cloud_Config_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:23:43.772
+!MESSAGE Classpath changed for project: 48_SB_Cloud_Config_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:28:53.617
+!MESSAGE Classpath changed for project: 48_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:28:57.709
+!MESSAGE Classpath changed for project: 48_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:28:57.710
+!MESSAGE Boot project ADDED: 48_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:28:57.821
+!MESSAGE Classpath changed for project: 48_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:29:17.445
+!MESSAGE Classpath changed for project: 48_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:29:17.446
+!MESSAGE Boot project REMOVED: 48_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:29:17.446
+!MESSAGE Classpath changed for project: 49_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:29:18.970
+!MESSAGE Classpath changed for project: 49_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:29:18.971
+!MESSAGE Boot project ADDED: 49_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:29:19.026
+!MESSAGE Classpath changed for project: 49_SB_Config_Client_Welcome
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-02-14 12:30:10.814
+!MESSAGE java.util.concurrent.CancellationException
+!STACK 0
+java.util.concurrent.CompletionException: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2480)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.cancel(LSPLinkedEditingBase.java:85)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.collectLinkedEditingRanges(LSPLinkedEditingBase.java:53)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:165)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:154)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.lambda$0(LSPLinkedEditingReconcilingStrategy.java:132)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2478)
+	... 30 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:50:13.401
+!MESSAGE Classpath changed for project: 49_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:50:26.437
+!MESSAGE Classpath changed for project: 49_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 12:50:34.843
+!MESSAGE Classpath changed for project: 48_SB_Cloud_Config_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 18:02:35.823
+!MESSAGE Classpath changed for project: 51_Circuit_Breaker_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 18:02:35.830
+!MESSAGE Boot project ADDED: 51_Circuit_Breaker_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 18:02:36.946
+!MESSAGE Classpath changed for project: 51_Circuit_Breaker_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 18:02:39.126
+!MESSAGE Classpath changed for project: 51_Circuit_Breaker_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-14 18:03:12.396
+!MESSAGE Classpath changed for project: 51_Circuit_Breaker_App
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-02-14 18:03:38.117
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 0 2025-02-15 19:04:56.856
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.ui.launch.LaunchList.getLast()" because "this.launches" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown.update(AbstractLaunchToolbarPulldown.java:112)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown$3.run(AbstractLaunchToolbarPulldown.java:134)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3737)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3265)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1310)
+	at org.eclipse.jface.window.Window.open(Window.java:795)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.open(ProgressMonitorDialog.java:633)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.aboutToRun(ProgressMonitorDialog.java:542)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:467)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:559)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:366)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:387)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3037)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1150)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1418)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1418)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1394)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2839)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4265)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3271)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2305)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.ui 4 0 2025-02-15 19:04:56.856
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.ui.launch.LaunchList.getLast()" because "this.launches" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown.update(AbstractLaunchToolbarPulldown.java:112)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown$3.run(AbstractLaunchToolbarPulldown.java:134)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3737)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3265)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1310)
+	at org.eclipse.jface.window.Window.open(Window.java:795)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.open(ProgressMonitorDialog.java:633)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.aboutToRun(ProgressMonitorDialog.java:542)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:467)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:559)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:366)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:387)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3037)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1150)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1418)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1418)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1394)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2839)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4265)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3271)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2305)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SESSION 2025-02-15 19:25:06.824 -----------------------------------------------
+eclipse.buildId=4.21.0.202312011804
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-02-15 19:25:11.619
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-02-15 19:25:16.240
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2025-02-15 19:25:39.793
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-02-15 19:25:39.793
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-15 19:25:45.526
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Admin\Downloads\sts-4.21.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+C:\Users\Admin\Downloads\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Admin\Downloads\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Admin\Downloads\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Java Fullstack/STS Workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1739627745522
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:45.526
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-15 19:25:45.547
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 5768
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-15 19:25:46.750
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.182
+!MESSAGE Boot project ADDED: 01-Spring-Data-Jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.191
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.216
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.224
+!MESSAGE Boot project ADDED: 01-SpringBoot-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.232
+!MESSAGE Boot project ADDED: 01-SpringBoot-App-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.240
+!MESSAGE Boot project ADDED: 02-SpringBoot-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.240
+!MESSAGE Boot project ADDED: 03-IOC-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.248
+!MESSAGE Boot project ADDED: 03-SpringBoot-DI-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.256
+!MESSAGE Boot project ADDED: 13-DataJpa_JPARepo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.256
+!MESSAGE Boot project ADDED: 14-Data-JPA-App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.256
+!MESSAGE Boot project ADDED: 15_Dat-Jpa-JpaRepo-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.272
+!MESSAGE Boot project ADDED: 16_Data_Jpa_Timestamp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.272
+!MESSAGE Boot project ADDED: 17-DataJPA-Composite-PK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.272
+!MESSAGE Boot project ADDED: 18-DataJpa_OneToOne
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.272
+!MESSAGE Boot project ADDED: 19-DataJPA-OTO-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.272
+!MESSAGE Boot project ADDED: 20-DataJPA-OTM-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.272
+!MESSAGE Boot project ADDED: 22-DataJpa_Specification_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.288
+!MESSAGE Boot project ADDED: 23-WebMVC-App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.296
+!MESSAGE Boot project ADDED: 24-WebMVC-Form-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.304
+!MESSAGE Boot project ADDED: 25-WebMVC-Product-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.304
+!MESSAGE Boot project ADDED: 26-WebMVC-H2-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.304
+!MESSAGE Boot project ADDED: 27_WebMVC_Mini_Project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.312
+!MESSAGE Boot project ADDED: 28_WebMVC_Exception_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:47.312
+!MESSAGE Boot project ADDED: 29_WebMVC_Query_Path_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.146
+!MESSAGE Boot project ADDED: 30_WebMVC_Form_Validations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.146
+!MESSAGE Boot project ADDED: 31_WebMVC_JSP_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.146
+!MESSAGE Boot project ADDED: 32_SB_Actuator_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.146
+!MESSAGE Boot project ADDED: 33-SB_Profile_Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.146
+!MESSAGE Boot project ADDED: 35_SB_Rest_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.154
+!MESSAGE Boot project ADDED: 36_IRCTC_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.154
+!MESSAGE Boot project ADDED: 36_IRCTC_API1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.154
+!MESSAGE Boot project ADDED: 37_SB_REST_XML_JSON
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.162
+!MESSAGE Boot project ADDED: 38_SB_Products_Consumer_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.162
+!MESSAGE Boot project ADDED: 39_SB_WebClient_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.162
+!MESSAGE Boot project ADDED: 40_MakeMyTrip_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.162
+!MESSAGE Boot project ADDED: 41_REST_API_Ex_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.178
+!MESSAGE Boot project ADDED: 42_SB_Data_REST_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.186
+!MESSAGE Boot project ADDED: 43_SB_Service_Registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.186
+!MESSAGE Boot project ADDED: 44_Admin_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.186
+!MESSAGE Boot project ADDED: 45_Welcome_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.186
+!MESSAGE Boot project ADDED: 46_Greet_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.186
+!MESSAGE Boot project ADDED: 47_Cloud_API_Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.186
+!MESSAGE Boot project ADDED: 48_SB_Cloud_Config_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.194
+!MESSAGE Boot project ADDED: 49_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-15 19:25:48.194
+!MESSAGE Boot project ADDED: 51_Circuit_Breaker_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 09:29:07.795
+!MESSAGE Classpath changed for project: 36_IRCTC_API1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 09:29:07.799
+!MESSAGE Boot project REMOVED: 36_IRCTC_API1
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-02-16 09:45:04.469
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jface 2 0 2025-02-16 11:03:49.928
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-02-16 11:03:49.929
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-02-16 11:03:55.723
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-02-16 11:03:56.759
+!MESSAGE Could not get hover information due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:76)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-02-16 11:03:57.809
+!MESSAGE java.util.concurrent.CancellationException
+!STACK 0
+java.util.concurrent.CompletionException: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2480)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.cancel(LSPLinkedEditingBase.java:85)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.collectLinkedEditingRanges(LSPLinkedEditingBase.java:53)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:165)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:154)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.lambda$0(LSPLinkedEditingReconcilingStrategy.java:132)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2478)
+	... 30 more
+!SESSION 2025-02-16 11:14:42.116 -----------------------------------------------
+eclipse.buildId=4.21.0.202312011804
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-02-16 11:14:46.838
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-02-16 11:14:51.011
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2025-02-16 11:15:15.218
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-02-16 11:15:15.218
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-16 11:15:21.076
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Admin\Downloads\sts-4.21.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+C:\Users\Admin\Downloads\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Admin\Downloads\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Admin\Downloads\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Java Fullstack/STS Workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1739684721076
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:21.077
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-16 11:15:21.096
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 14048
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-16 11:15:22.915
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.487
+!MESSAGE Boot project ADDED: 01-Spring-Data-Jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.487
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.497
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.503
+!MESSAGE Boot project ADDED: 01-SpringBoot-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.505
+!MESSAGE Boot project ADDED: 01-SpringBoot-App-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.506
+!MESSAGE Boot project ADDED: 02-SpringBoot-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.506
+!MESSAGE Boot project ADDED: 03-IOC-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.511
+!MESSAGE Boot project ADDED: 03-SpringBoot-DI-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.511
+!MESSAGE Boot project ADDED: 13-DataJpa_JPARepo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.515
+!MESSAGE Boot project ADDED: 14-Data-JPA-App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.517
+!MESSAGE Boot project ADDED: 15_Dat-Jpa-JpaRepo-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.520
+!MESSAGE Boot project ADDED: 16_Data_Jpa_Timestamp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.520
+!MESSAGE Boot project ADDED: 17-DataJPA-Composite-PK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.526
+!MESSAGE Boot project ADDED: 18-DataJpa_OneToOne
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.526
+!MESSAGE Boot project ADDED: 19-DataJPA-OTO-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.528
+!MESSAGE Boot project ADDED: 20-DataJPA-OTM-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.528
+!MESSAGE Boot project ADDED: 22-DataJpa_Specification_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.535
+!MESSAGE Boot project ADDED: 23-WebMVC-App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.537
+!MESSAGE Boot project ADDED: 24-WebMVC-Form-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.537
+!MESSAGE Boot project ADDED: 25-WebMVC-Product-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.537
+!MESSAGE Boot project ADDED: 26-WebMVC-H2-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.537
+!MESSAGE Boot project ADDED: 27_WebMVC_Mini_Project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.544
+!MESSAGE Boot project ADDED: 28_WebMVC_Exception_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.546
+!MESSAGE Boot project ADDED: 29_WebMVC_Query_Path_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.546
+!MESSAGE Boot project ADDED: 30_WebMVC_Form_Validations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.552
+!MESSAGE Boot project ADDED: 31_WebMVC_JSP_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.552
+!MESSAGE Boot project ADDED: 32_SB_Actuator_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.556
+!MESSAGE Boot project ADDED: 33-SB_Profile_Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.557
+!MESSAGE Boot project ADDED: 35_SB_Rest_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.557
+!MESSAGE Boot project ADDED: 36_IRCTC_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:23.560
+!MESSAGE Boot project ADDED: 37_SB_REST_XML_JSON
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:24.585
+!MESSAGE Boot project ADDED: 38_SB_Products_Consumer_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:24.586
+!MESSAGE Boot project ADDED: 39_SB_WebClient_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:24.586
+!MESSAGE Boot project ADDED: 40_MakeMyTrip_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:24.586
+!MESSAGE Boot project ADDED: 41_REST_API_Ex_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:24.590
+!MESSAGE Boot project ADDED: 42_SB_Data_REST_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:24.590
+!MESSAGE Boot project ADDED: 43_SB_Service_Registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:24.590
+!MESSAGE Boot project ADDED: 44_Admin_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:24.596
+!MESSAGE Boot project ADDED: 45_Welcome_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:24.597
+!MESSAGE Boot project ADDED: 46_Greet_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:24.597
+!MESSAGE Boot project ADDED: 47_Cloud_API_Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:24.605
+!MESSAGE Boot project ADDED: 48_SB_Cloud_Config_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:24.609
+!MESSAGE Boot project ADDED: 49_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-16 11:15:24.609
+!MESSAGE Boot project ADDED: 51_Circuit_Breaker_App
+
+!ENTRY org.eclipse.jface 2 0 2025-02-16 12:32:44.863
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-02-16 12:32:44.863
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springsource.ide.eclipse.commons.core 4 0 2025-02-17 15:32:51.950
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): 52_SB_Redis_App does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:549)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2576)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2438)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2536)
+	at org.springframework.tooling.boot.ls.BootProjectTester.isProjectWithDependency(BootProjectTester.java:71)
+	at org.springframework.tooling.boot.ls.BootProjectTester.test(BootProjectTester.java:58)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.expressions.OrExpression.evaluate(OrExpression.java:26)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:163)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:256)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:114)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:469)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5141)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4773)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2305)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4112)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3653)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-02-17 15:32:51.952
+!MESSAGE 52_SB_Redis_App does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-17 15:33:10.973
+!MESSAGE Classpath changed for project: 52_SB_Redis_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-17 15:33:14.853
+!MESSAGE Classpath changed for project: 52_SB_Redis_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-17 15:33:14.853
+!MESSAGE Boot project ADDED: 52_SB_Redis_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-17 15:33:24.317
+!MESSAGE Classpath changed for project: 52_SB_Redis_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-17 15:37:46.261
+!MESSAGE Classpath changed for project: 52_SB_Redis_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-17 21:19:52.615
+!MESSAGE Classpath changed for project: 53_Http_Basic_Auth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-17 21:19:58.276
+!MESSAGE Classpath changed for project: 53_Http_Basic_Auth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-17 21:19:58.276
+!MESSAGE Boot project ADDED: 53_Http_Basic_Auth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-17 21:20:00.532
+!MESSAGE Classpath changed for project: 53_Http_Basic_Auth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 10:16:14.699
+!MESSAGE Classpath changed for project: 54_Spring_Security_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 10:16:19.979
+!MESSAGE Classpath changed for project: 54_Spring_Security_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 10:16:19.983
+!MESSAGE Boot project ADDED: 54_Spring_Security_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 10:16:20.645
+!MESSAGE Classpath changed for project: 54_Spring_Security_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 10:16:22.644
+!MESSAGE Classpath changed for project: 54_Spring_Security_App
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-02-18 10:22:31.863
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-02-18 11:18:28.880
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 11:48:40.886
+!MESSAGE Classpath changed for project: 54_Spring_Security_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 12:49:39.381
+!MESSAGE Classpath changed for project: 54_Spring_Security_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.119
+!MESSAGE Classpath changed for project: 01-SpringBoot-App-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.126
+!MESSAGE Boot project REMOVED: 01-SpringBoot-App-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.126
+!MESSAGE Classpath changed for project: 03-IOC-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.127
+!MESSAGE Boot project REMOVED: 03-IOC-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.127
+!MESSAGE Classpath changed for project: 03-SpringBoot-DI-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.128
+!MESSAGE Boot project REMOVED: 03-SpringBoot-DI-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.128
+!MESSAGE Classpath changed for project: 15_Dat-Jpa-JpaRepo-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.129
+!MESSAGE Boot project REMOVED: 15_Dat-Jpa-JpaRepo-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.142
+!MESSAGE Classpath changed for project: 16_Data_Jpa_Timestamp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.150
+!MESSAGE Boot project REMOVED: 16_Data_Jpa_Timestamp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.156
+!MESSAGE Classpath changed for project: 18-DataJpa_OneToOne
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.157
+!MESSAGE Boot project REMOVED: 18-DataJpa_OneToOne
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.158
+!MESSAGE Classpath changed for project: 19-DataJPA-OTO-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.165
+!MESSAGE Boot project REMOVED: 19-DataJPA-OTO-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.167
+!MESSAGE Classpath changed for project: 24-WebMVC-Form-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.168
+!MESSAGE Boot project REMOVED: 24-WebMVC-Form-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.169
+!MESSAGE Classpath changed for project: 25-WebMVC-Product-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.170
+!MESSAGE Boot project REMOVED: 25-WebMVC-Product-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.170
+!MESSAGE Classpath changed for project: 29_WebMVC_Query_Path_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.171
+!MESSAGE Boot project REMOVED: 29_WebMVC_Query_Path_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.172
+!MESSAGE Classpath changed for project: 31_WebMVC_JSP_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.178
+!MESSAGE Boot project REMOVED: 31_WebMVC_JSP_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.179
+!MESSAGE Classpath changed for project: 32_SB_Actuator_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.179
+!MESSAGE Boot project REMOVED: 32_SB_Actuator_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.180
+!MESSAGE Classpath changed for project: 35_SB_Rest_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.180
+!MESSAGE Boot project REMOVED: 35_SB_Rest_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.180
+!MESSAGE Classpath changed for project: 36_IRCTC_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.181
+!MESSAGE Boot project REMOVED: 36_IRCTC_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.181
+!MESSAGE Classpath changed for project: 37_SB_REST_XML_JSON
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.182
+!MESSAGE Boot project REMOVED: 37_SB_REST_XML_JSON
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.182
+!MESSAGE Classpath changed for project: 39_SB_WebClient_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.184
+!MESSAGE Boot project REMOVED: 39_SB_WebClient_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.185
+!MESSAGE Classpath changed for project: 40_MakeMyTrip_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.186
+!MESSAGE Boot project REMOVED: 40_MakeMyTrip_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.186
+!MESSAGE Classpath changed for project: 41_REST_API_Ex_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.186
+!MESSAGE Boot project REMOVED: 41_REST_API_Ex_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.187
+!MESSAGE Classpath changed for project: 43_SB_Service_Registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.187
+!MESSAGE Boot project REMOVED: 43_SB_Service_Registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.188
+!MESSAGE Classpath changed for project: 46_Greet_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.188
+!MESSAGE Boot project REMOVED: 46_Greet_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.189
+!MESSAGE Classpath changed for project: 52_SB_Redis_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:39.189
+!MESSAGE Boot project REMOVED: 52_SB_Redis_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.428
+!MESSAGE Classpath changed for project: 01-Spring-Data-Jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.429
+!MESSAGE Boot project REMOVED: 01-Spring-Data-Jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.429
+!MESSAGE Classpath changed for project: 01-SpringBoot-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.430
+!MESSAGE Boot project REMOVED: 01-SpringBoot-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.431
+!MESSAGE Classpath changed for project: 02-Payment-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.431
+!MESSAGE Classpath changed for project: 02-SpringBoot-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.432
+!MESSAGE Boot project REMOVED: 02-SpringBoot-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.433
+!MESSAGE Classpath changed for project: 13-DataJpa_JPARepo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.435
+!MESSAGE Boot project REMOVED: 13-DataJpa_JPARepo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.437
+!MESSAGE Classpath changed for project: 14-Data-JPA-App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.444
+!MESSAGE Boot project REMOVED: 14-Data-JPA-App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.445
+!MESSAGE Classpath changed for project: 17-DataJPA-Composite-PK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.445
+!MESSAGE Boot project REMOVED: 17-DataJPA-Composite-PK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.446
+!MESSAGE Classpath changed for project: 20-DataJPA-OTM-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.446
+!MESSAGE Boot project REMOVED: 20-DataJPA-OTM-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.447
+!MESSAGE Classpath changed for project: 22-DataJpa_Specification_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.448
+!MESSAGE Boot project REMOVED: 22-DataJpa_Specification_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.448
+!MESSAGE Classpath changed for project: 23-WebMVC-App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.455
+!MESSAGE Boot project REMOVED: 23-WebMVC-App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.455
+!MESSAGE Classpath changed for project: 26-WebMVC-H2-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.457
+!MESSAGE Boot project REMOVED: 26-WebMVC-H2-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.458
+!MESSAGE Classpath changed for project: 27_WebMVC_Mini_Project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.458
+!MESSAGE Boot project REMOVED: 27_WebMVC_Mini_Project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.461
+!MESSAGE Classpath changed for project: 28_WebMVC_Exception_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.461
+!MESSAGE Boot project REMOVED: 28_WebMVC_Exception_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.464
+!MESSAGE Classpath changed for project: 30_WebMVC_Form_Validations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.465
+!MESSAGE Boot project REMOVED: 30_WebMVC_Form_Validations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.466
+!MESSAGE Classpath changed for project: 33-SB_Profile_Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.466
+!MESSAGE Boot project REMOVED: 33-SB_Profile_Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.467
+!MESSAGE Classpath changed for project: 38_SB_Products_Consumer_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.467
+!MESSAGE Boot project REMOVED: 38_SB_Products_Consumer_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.468
+!MESSAGE Classpath changed for project: 42_SB_Data_REST_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.469
+!MESSAGE Boot project REMOVED: 42_SB_Data_REST_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.469
+!MESSAGE Classpath changed for project: 44_Admin_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.470
+!MESSAGE Boot project REMOVED: 44_Admin_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.471
+!MESSAGE Classpath changed for project: 45_Welcome_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.472
+!MESSAGE Boot project REMOVED: 45_Welcome_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.472
+!MESSAGE Classpath changed for project: 47_Cloud_API_Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.473
+!MESSAGE Boot project REMOVED: 47_Cloud_API_Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.473
+!MESSAGE Classpath changed for project: 48_SB_Cloud_Config_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.474
+!MESSAGE Boot project REMOVED: 48_SB_Cloud_Config_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.474
+!MESSAGE Classpath changed for project: 49_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.474
+!MESSAGE Boot project REMOVED: 49_SB_Config_Client_Welcome
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.483
+!MESSAGE Classpath changed for project: 51_Circuit_Breaker_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.486
+!MESSAGE Boot project REMOVED: 51_Circuit_Breaker_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.487
+!MESSAGE Classpath changed for project: 53_Http_Basic_Auth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:09:41.487
+!MESSAGE Boot project REMOVED: 53_Http_Basic_Auth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:10:00.087
+!MESSAGE Classpath changed for project: 54_Spring_Security_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:27:53.677
+!MESSAGE Classpath changed for project: 54_Spring_Security_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:27:53.678
+!MESSAGE Boot project REMOVED: 54_Spring_Security_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:27:53.680
+!MESSAGE Classpath changed for project: 54_Spring_Security_App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:27:57.254
+!MESSAGE Classpath changed for project: 54_Spring_Security_App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:27:57.273
+!MESSAGE Boot project ADDED: 54_Spring_Security_App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:27:57.329
+!MESSAGE Classpath changed for project: 54_Spring_Security_App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:28:36.666
+!MESSAGE Classpath changed for project: 55_Register_Login_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:28:36.667
+!MESSAGE Boot project ADDED: 55_Register_Login_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 16:28:37.472
+!MESSAGE Classpath changed for project: 55_Register_Login_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 11:27:59.503
+!MESSAGE Classpath changed for project: 56_SB_OAuth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 11:28:04.936
+!MESSAGE Classpath changed for project: 56_SB_OAuth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 11:28:04.937
+!MESSAGE Boot project ADDED: 56_SB_OAuth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 11:28:05.494
+!MESSAGE Classpath changed for project: 56_SB_OAuth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 11:28:33.964
+!MESSAGE Classpath changed for project: 56_SB_OAuth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 11:28:36.091
+!MESSAGE Classpath changed for project: 54_Spring_Security_App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 11:28:36.092
+!MESSAGE Boot project REMOVED: 54_Spring_Security_App1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 11:28:36.092
+!MESSAGE Classpath changed for project: 55_Register_Login_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 11:28:36.099
+!MESSAGE Boot project REMOVED: 55_Register_Login_App
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-02-19 11:30:58.335
+!MESSAGE java.util.concurrent.CancellationException
+!STACK 0
+java.util.concurrent.CompletionException: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2480)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.cancel(LSPLinkedEditingBase.java:85)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.collectLinkedEditingRanges(LSPLinkedEditingBase.java:53)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:165)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:154)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.lambda$0(LSPLinkedEditingReconcilingStrategy.java:132)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2478)
+	... 30 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 14:45:09.042
+!MESSAGE Classpath changed for project: 57_SpringBoot_JWT_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 14:45:09.044
+!MESSAGE Boot project ADDED: 57_SpringBoot_JWT_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 14:45:10.174
+!MESSAGE Classpath changed for project: 57_SpringBoot_JWT_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 14:45:13.916
+!MESSAGE Classpath changed for project: 57_SpringBoot_JWT_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 14:45:14.802
+!MESSAGE Classpath changed for project: 57_SpringBoot_JWT_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 14:45:49.119
+!MESSAGE Classpath changed for project: 57_SpringBoot_JWT_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 14:46:42.745
+!MESSAGE Classpath changed for project: 57_SpringBoot_JWT_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 14:46:46.353
+!MESSAGE Classpath changed for project: 56_SB_OAuth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 14:46:46.354
+!MESSAGE Boot project REMOVED: 56_SB_OAuth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 14:57:10.371
+!MESSAGE Classpath changed for project: 56_SB_OAuth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 14:57:10.372
+!MESSAGE Boot project ADDED: 56_SB_OAuth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 14:58:06.957
+!MESSAGE Classpath changed for project: 57_SpringBoot_JWT_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 15:02:28.768
+!MESSAGE Classpath changed for project: 15_Dat-Jpa-JpaRepo-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 15:02:28.771
+!MESSAGE Boot project ADDED: 15_Dat-Jpa-JpaRepo-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 15:04:20.284
+!MESSAGE Classpath changed for project: 57_SpringBoot_JWT_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 15:14:10.473
+!MESSAGE Classpath changed for project: 57_SpringBoot_JWT_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 15:30:39.391
+!MESSAGE Classpath changed for project: 57_SpringBoot_JWT_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 15:33:33.237
+!MESSAGE Classpath changed for project: 57_SpringBoot_JWT_App
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-02-19 18:12:52.885
+!MESSAGE java.util.concurrent.CancellationException
+!STACK 0
+java.util.concurrent.CompletionException: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2480)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.cancel(LSPLinkedEditingBase.java:85)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.collectLinkedEditingRanges(LSPLinkedEditingBase.java:53)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:165)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:154)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy$EditorSelectionChangedListener.selectionChanged(LSPLinkedEditingReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2718)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2648)
+	at org.eclipse.jface.text.TextViewer$2.run(TextViewer.java:2627)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3290)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2478)
+	... 33 more
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-02-19 18:13:06.963
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)

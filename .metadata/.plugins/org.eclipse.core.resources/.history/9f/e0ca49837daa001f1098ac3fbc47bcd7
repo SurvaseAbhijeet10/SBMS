@@ -1,0 +1,5 @@
+package com.sbms.entity;
+
+public class Employee {
+
+}

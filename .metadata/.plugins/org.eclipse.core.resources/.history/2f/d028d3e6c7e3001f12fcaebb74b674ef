@@ -1,0 +1,22 @@
+package com.sbms.rest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class DemoRestController {
+	
+	@GetMapping("/greet")
+	public String getGeetMsg() {
+		String msg = "Good Morning...";
+		return msg;
+	}
+
+	@GetMapping("/welcome")
+	public String getWelcomeMsg() {
+		String msg = "Welcome to Rest API....";		
+		return msg;
+	}
+	
+}

@@ -1,0 +1,19 @@
+package com.sbms.services;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+@Service
+public class QuoteService {
+
+	
+	public void getQuotetions() {
+		
+		String apiUrl = "https://type.fit/api/quotes";
+		
+		RestTemplate rt = new RestTemplate();
+		
+		rt.getForEntity(apiUrl, String.class);
+	}
+	
+}

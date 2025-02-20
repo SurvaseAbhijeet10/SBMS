@@ -1,0 +1,5 @@
+package com.sbms.services;
+
+public class QuoteService {
+
+}

@@ -1,0 +1,5 @@
+package com.sbms.repository;
+
+public interface EmployeeRepository {
+
+}

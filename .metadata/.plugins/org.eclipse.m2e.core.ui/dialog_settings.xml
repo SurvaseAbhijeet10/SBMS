@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Java Fullstack\STS Workspace\02-Payment-App\src\com\sbms\IPayment.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.sbms"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="03-IOC-App"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\51_Circuit_Breaker_App"/>
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\47_Cloud_API_Gateway"/>
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\46_Greet_API"/>
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\45_Welcome_API"/>
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\44_Admin_Server"/>
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\42_SB_Data_REST_App"/>
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\41_REST_API_Ex_App"/>
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\40_MakeMyTrip_App"/>
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\39_SB_WebClient_App"/>
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\38_SB_Products_Consumer_App"/>
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\37_SB_REST_XML_JSON"/>
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\36_IRCTC_API"/>
+			<item value="C:\Java Fullstack\STS Workspace\33-SB_Profile_Application\src\main\java"/>
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\23-WebMVC-App1"/>
+			<item value="C:\Java Fullstack\STS Workspace\SBMS-39\22-DataJpa_Specification_App"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

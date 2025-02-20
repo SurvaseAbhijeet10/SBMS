@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: SB_Cloud_Config_Server
+
+Server:
+  port: 7071

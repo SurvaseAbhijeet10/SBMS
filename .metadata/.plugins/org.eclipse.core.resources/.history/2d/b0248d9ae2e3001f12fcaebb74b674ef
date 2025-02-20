@@ -1,0 +1,5 @@
+package com.sbms.controller;
+
+public class CustomerRestController {
+
+}

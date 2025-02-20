@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Admin
+Build-Jdk: 17.0.9
+Implementation-Title: Spring Core
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: guru.springframework
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: guru.springframework.SpringCoreApplication
+Created-By: Maven Integration for Eclipse
+

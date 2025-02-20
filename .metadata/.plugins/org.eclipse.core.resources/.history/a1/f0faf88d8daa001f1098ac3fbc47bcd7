@@ -1,0 +1,34 @@
+package com.sbms.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Sort;
+import org.springframework.stereotype.Service;
+
+import com.sbms.entity.Employee;
+import com.sbms.repository.EmployeeRepository;
+
+@Service
+public class EmployeeService {
+
+	@Autowired
+	private EmployeeRepository EmpRepo;
+	
+	@Autowired
+	public EmployeeService(EmployeeRepository EmpRepo){
+	
+		this.EmpRepo= EmpRepo;
+	}
+	
+	public void getAllEmps() {
+		List<Employee> list = EmpRepo.findAll();
+		
+		list.forEach(e -> System.out.println(e));
+	}
+	
+	public void getAllEMPSort() {
+		Sort sort=Sort.by("ESalary").ascending();
+	}
+	
+}

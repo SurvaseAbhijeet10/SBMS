@@ -1,0 +1,10 @@
+package com.sbms.controller;
+
+
+@Controller
+public class DemoController {
+	
+	
+	
+
+}

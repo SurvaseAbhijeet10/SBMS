@@ -1,0 +1,14 @@
+package com.sbms.services;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class QuoteService {
+
+	
+	public void getQuotetions() {
+		
+		String apiUrl = "https://type.fit/api/quotes";
+	}
+	
+}
