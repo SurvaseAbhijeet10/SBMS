@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\Java Fullstack\\STS Workspace\\SBMS-39\\.git;
-GitRepositoriesView.GitDirectories.relative=SBMS-39\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Java Fullstack\\STS Workspace\\SBMS-39\\.git;C\:\\Java Fullstack\\STS Workspace\\.git;
+GitRepositoriesView.GitDirectories.relative=SBMS-39\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

@@ -1751,3 +1751,306 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:11.519
+!MESSAGE Classpath changed for project: 03-Welcome-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:11.519
+!MESSAGE Boot project ADDED: 03-Welcome-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:13.369
+!MESSAGE Classpath changed for project: 05-Auth-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:13.369
+!MESSAGE Boot project ADDED: 05-Auth-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:15.076
+!MESSAGE Classpath changed for project: 04-API-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:15.140
+!MESSAGE Boot project ADDED: 04-API-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:17.247
+!MESSAGE Classpath changed for project: 04-API-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:17.255
+!MESSAGE Classpath changed for project: 04-Greet-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:17.255
+!MESSAGE Boot project ADDED: 04-Greet-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:18.937
+!MESSAGE Classpath changed for project: 04-Greet-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:18.937
+!MESSAGE Classpath changed for project: 01-Service-Registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:18.945
+!MESSAGE Classpath changed for project: 02-Config-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:18.946
+!MESSAGE Boot project ADDED: 02-Config-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:20.356
+!MESSAGE Classpath changed for project: 01-Service-Registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:20.356
+!MESSAGE Boot project ADDED: 01-Service-Registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:28.154
+!MESSAGE Classpath changed for project: 04-API-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:28.154
+!MESSAGE Classpath changed for project: 01-Service-Registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:31.611
+!MESSAGE Classpath changed for project: 05-Auth-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:31.611
+!MESSAGE Classpath changed for project: 03-Welcome-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:31.619
+!MESSAGE Classpath changed for project: 02-Config-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:31.619
+!MESSAGE Classpath changed for project: 04-Greet-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:31.619
+!MESSAGE Classpath changed for project: 01-Service-Registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:33.255
+!MESSAGE Classpath changed for project: 02-Config-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:33.255
+!MESSAGE Classpath changed for project: 03-Welcome-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:35.025
+!MESSAGE Classpath changed for project: 04-API-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:35.025
+!MESSAGE Classpath changed for project: 04-Greet-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:36.637
+!MESSAGE Classpath changed for project: 04-Greet-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:36.637
+!MESSAGE Classpath changed for project: 05-Auth-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:15:36.908
+!MESSAGE Classpath changed for project: 05-Auth-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:16:07.365
+!MESSAGE Classpath changed for project: 04-API-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:16:08.573
+!MESSAGE Classpath changed for project: 05-Auth-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:16:09.637
+!MESSAGE Classpath changed for project: 04-Greet-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:16:10.874
+!MESSAGE Classpath changed for project: 01-Service-Registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:16:11.974
+!MESSAGE Classpath changed for project: 03-Welcome-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:16:12.613
+!MESSAGE Classpath changed for project: 02-Config-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.713
+!MESSAGE Classpath changed for project: 02-Config-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.716
+!MESSAGE Boot project REMOVED: 02-Config-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.717
+!MESSAGE Classpath changed for project: 03-Welcome-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.718
+!MESSAGE Boot project REMOVED: 03-Welcome-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.718
+!MESSAGE Classpath changed for project: 04-API-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.720
+!MESSAGE Boot project REMOVED: 04-API-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.721
+!MESSAGE Classpath changed for project: 04-Greet-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.722
+!MESSAGE Boot project REMOVED: 04-Greet-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.723
+!MESSAGE Classpath changed for project: 05-Auth-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.723
+!MESSAGE Boot project REMOVED: 05-Auth-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.724
+!MESSAGE Classpath changed for project: 15_Dat-Jpa-JpaRepo-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.725
+!MESSAGE Boot project REMOVED: 15_Dat-Jpa-JpaRepo-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.727
+!MESSAGE Classpath changed for project: 56_SB_OAuth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.729
+!MESSAGE Boot project REMOVED: 56_SB_OAuth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.735
+!MESSAGE Classpath changed for project: 57_SpringBoot_JWT_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:25:19.737
+!MESSAGE Boot project REMOVED: 57_SpringBoot_JWT_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:29:46.796
+!MESSAGE Classpath changed for project: 01-Service-Registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:29:46.797
+!MESSAGE Boot project REMOVED: 01-Service-Registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:29:46.803
+!MESSAGE Classpath changed for project: 01-Service-Registry-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:29:50.692
+!MESSAGE Classpath changed for project: 01-Service-Registry-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:29:50.692
+!MESSAGE Boot project ADDED: 01-Service-Registry-Microservice-Security
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-02-20 12:29:56.844
+!MESSAGE LanguageServer not initialized within 10s
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:835)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComply(LanguageServiceAccessor.java:205)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappers(LanguageServiceAccessor.java:415)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:340)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:437)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:172)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:148)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:29)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:30:17.993
+!MESSAGE Classpath changed for project: 02-Config-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:30:17.993
+!MESSAGE Boot project ADDED: 02-Config-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:30:29.970
+!MESSAGE Classpath changed for project: 02-Config-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:30:29.970
+!MESSAGE Boot project REMOVED: 02-Config-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:30:29.971
+!MESSAGE Classpath changed for project: 02-Config-Server-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:30:32.850
+!MESSAGE Classpath changed for project: 02-Config-Server-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:30:32.860
+!MESSAGE Boot project ADDED: 02-Config-Server-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:30:32.898
+!MESSAGE Classpath changed for project: 02-Config-Server-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:07.522
+!MESSAGE Classpath changed for project: 03-Welcome-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:07.523
+!MESSAGE Boot project ADDED: 03-Welcome-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:19.184
+!MESSAGE Classpath changed for project: 03-Welcome-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:19.187
+!MESSAGE Boot project REMOVED: 03-Welcome-API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:19.188
+!MESSAGE Classpath changed for project: 03-Welcome-API-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:22.518
+!MESSAGE Classpath changed for project: 03-Welcome-API-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:22.529
+!MESSAGE Boot project ADDED: 03-Welcome-API-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:22.568
+!MESSAGE Classpath changed for project: 03-Welcome-API-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:39.260
+!MESSAGE Classpath changed for project: 04-API-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:39.261
+!MESSAGE Boot project ADDED: 04-API-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:47.089
+!MESSAGE Classpath changed for project: 04-API-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:47.090
+!MESSAGE Boot project REMOVED: 04-API-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:47.091
+!MESSAGE Classpath changed for project: 04-API-Gateway-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:51.243
+!MESSAGE Classpath changed for project: 04-API-Gateway-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:51.254
+!MESSAGE Boot project ADDED: 04-API-Gateway-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:51.368
+!MESSAGE Classpath changed for project: 04-API-Gateway-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:56.628
+!MESSAGE Classpath changed for project: 05-Auth-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:31:56.629
+!MESSAGE Boot project ADDED: 05-Auth-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:32:07.055
+!MESSAGE Classpath changed for project: 05-Auth-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:32:07.063
+!MESSAGE Boot project REMOVED: 05-Auth-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:32:07.064
+!MESSAGE Classpath changed for project: 05-Auth-Service-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:32:11.024
+!MESSAGE Classpath changed for project: 05-Auth-Service-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:32:11.042
+!MESSAGE Boot project ADDED: 05-Auth-Service-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 12:32:11.085
+!MESSAGE Classpath changed for project: 05-Auth-Service-Microservice-Security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 15:04:12.036
+!MESSAGE Classpath changed for project: 01-Service-Registry-Microservice-Security
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2025-02-20 15:04:50.329
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
